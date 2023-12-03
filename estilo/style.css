@@ -15,6 +15,8 @@ body{
     background-repeat: no-repeat top center;
     background-size: cover;
     background-attachment: fixed;
+    min-width: 300px;
+    max-width: 1900px;
 }
 
 main{
@@ -42,17 +44,18 @@ section#telefone{
     position: relative;
     top: 79px;
     left: 18px;
-    width: 269px;
+    width: 267px;
     height: 471px;
 }
 
 section#redes-sociais{
     text-align: right;
+    justify-content: center;
     margin-top: 20px;
     padding-right: 10px;
 }
 #redes-sociais img{
-   display: inline-flex;
+   display: inline;
     width: 50px;
     height: 50px;
     border-radius: 50%;
